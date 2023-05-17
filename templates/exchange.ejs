@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Exchange Currency</title>
+		<link rel="stylesheet" href="stylesheet.css">
+	</head>
+	<body>
+	    <h1>Exchange Currency</h1>
+		<form action="./exchange" method="post">
+			<label for="name"><b>Name:</b></label>
+			<input id="name" name="name" required type="text">
+			<br>
+			<br>
+			<label for="email"><b>Email:</b></label>
+			<input id="email" name="email" required type="email">
+			<br>
+			<br>
+			<label for="amount"><b>Amount:</b></label>
+			<input id="amount" min="0" name="amount" required step="any" type="number">
+			<p><b>Input Currency:</b></p>
+			<input id="inputAUD" name="inputCurrency" required type="radio" value="AUD">
+			<label for="inputAUD">Australian Dollar</label>
+			<br>
+			<input id="inputCAD" name="inputCurrency" required type="radio" value="CAD">
+			<label for="inputCAD">Canadian Dollar</label>
+			<br>
+			<input id="inputCNY" name="inputCurrency" required type="radio" value="CNY">
+			<label for="inputCNY">Chinese Yuan</label>
+			<br>
+			<input id="inputEUR" name="inputCurrency" required type="radio" value="EUR">
+			<label for="inputEUR">Euro</label>
+			<br>
+			<input id="inputINR" name="inputCurrency" required type="radio" value="INR">
+			<label for="inputINR">Indian Rupee</label>
+			<br>
+			<input id="inputJPY" name="inputCurrency" required type="radio" value="JPY">
+			<label for="inputJPY">Japanese Yen</label>
+			<br>
+			<input id="inputKRW" name="inputCurrency" required type="radio" value="KRW">
+			<label for="inputKRW">South Korean Won</label>
+			<br>
+			<input id="inputMXN" name="inputCurrency" required type="radio" value="MXN">
+			<label for="inputMXN">Mexican Peso</label>
+			<br>
+			<input id="inputRUB" name="inputCurrency" required type="radio" value="RUB">
+			<label for="inputRUB">Russian Ruble</label>
+			<br>
+			<input id="inputUSD" name="inputCurrency" required type="radio" value="USD">
+			<label for="inputUSD">United States Dollar</label>
+			<br>
+			<p><b>Output Currency:</b></p>
+			<input id="outputAUD" name="outputCurrency" required type="radio" value="AUD">
+			<label for="outputAUD">Australian Dollar</label>
+			<br>
+			<input id="outputCAD" name="outputCurrency" required type="radio" value="CAD">
+			<label for="outputCAD">Canadian Dollar</label>
+			<br>
+			<input id="outputCNY" name="outputCurrency" required type="radio" value="CNY">
+			<label for="outputCNY">Chinese Yuan</label>
+			<br>
+			<input id="outputEUR" name="outputCurrency" required type="radio" value="EUR">
+			<label for="outputEUR">Euro</label>
+			<br>
+			<input id="outputINR" name="outputCurrency" required type="radio" value="INR">
+			<label for="outputINR">Indian Rupee</label>
+			<br>
+			<input id="outputJPY" name="outputCurrency" required type="radio" value="JPY">
+			<label for="outputJPY">Japanese Yen</label>
+			<br>
+			<input id="outputKRW" name="outputCurrency" required type="radio" value="KRW">
+			<label for="outputKRW">South Korean Won</label>
+			<br>
+			<input id="outputMXN" name="outputCurrency" required type="radio" value="MXN">
+			<label for="outputMXN">Mexican Peso</label>
+			<br>
+			<input id="outputRUB" name="outputCurrency" required type="radio" value="RUB">
+			<label for="outputRUB">Russian Ruble</label>
+			<br>
+			<input id="outputUSD" name="outputCurrency" required type="radio" value="USD">
+			<label for="outputUSD">United States Dollar</label>
+			<br>
+			<br>
+			<input type="reset">
+			<input type="submit">
+		</form>
+		<hr>
+		<a href="./">Back</a>
+	</body>
+</html>

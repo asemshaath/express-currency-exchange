@@ -1,0 +1,30 @@
+a {
+    color: white;
+}
+
+body {
+    background-color: gray;
+    font-family: sans-serif;
+}
+
+input[type=button], input[type=reset], input[type=submit] {
+    background-color: lightgray;
+    border: none;
+    text-decoration: none;
+}
+
+h1 {
+    color: orange;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: orange;
+}
+
+td {
+    background-color: lightskyblue;
+}
